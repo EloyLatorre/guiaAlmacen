@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi página con Bootstrap</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+<link rel="icon" href="/imagenEncimaTitulo.svg" type="image/svg+xml">
+
+  <style>
+    .banner {
+      position: relative;
+      height: 100vh;
+      margin-bottom: 100px;
+    }
+
+    .banner img {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+
+    .banner .content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+
+    .logo {
+      max-width: 150px;
+      margin-bottom: 40px;
+    }
+
+    h1, h2, h3, .card-title {
+      font-family: 'Kanit', sans-serif;
+      color: #EE445D;
+    }
+
+    .card-text {
+      color: white;
+    }
+
+    body {
+      background-color: #343434;
+    }
+
+    .card {
+      background-color: #505050;
+    }
+
+    .descripcion {
+  background-color: #EE445D;
+  font-size: 19px;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 30px !important;
+  margin-bottom: 50px;
+}
+
+.btn-custom {
+  background-color: #ffffff;
+  color: #EE445D;
+  border: none;
+}
+
+.btn-custom:hover {
+  background-color: #EE445D;
+  color: #ffffff;
+}
+
+
+  </style>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+
+  <section class="banner">
+    <img src="/bannerAlmacen.png" alt="Banner" class="img-fluid">
+    <div class="content">
+      <img class="logo" src="/imagenEncimaTitulo.svg" alt="Imagen Encima del Título">
+      <h1 class="text-white">Proyecto de Almacén Supermercado</h1>
+
+      <h3>Eloy Latorre y Jaume Roselló</h3>
+    </div>
+  </section>
+
+  <div class="container descripcion bg-ee445d text-white p-4">
+    <p>El programa de gestión de almacén de un supermercado es una herramienta diseñada para facilitar la administración y control eficiente del stock, los precios y la organización general de un almacén en un supermercado. Con esta aplicación, los responsables del almacén pueden llevar un seguimiento preciso de los productos, controlar los niveles de stock, actualizar los precios de los productos y mantener una correcta organización de los mismos.</p>
+    <p>Además, este programa ha sido ampliado para incluir la funcionalidad de gestión de ofertas. Ahora, los usuarios pueden crear y administrar ofertas especiales para diferentes productos, controlar su duración y aplicar descuentos específicos, brindando así una herramienta adicional para impulsar las ventas y mejorar la experiencia de compra de los clientes.</p>
+  </div>
+  
+
+
+  <h2 class="text-center mb-5">¿Cómo utilizar el programa?</h2>
+
+  <!-- Sección de miniaturas -->
+  <section class="miniaturas">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="miniatura.png" alt="Miniatura 1" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Título de la miniatura 1</h3>
+              <p class="card-text">Descripción de la miniatura 1</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="miniatura.png" alt="Miniatura 2" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Título de la miniatura 2</h3>
+              <p class="card-text">Descripción de la miniatura 2</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="miniatura.png" alt="Miniatura 3" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Título de la miniatura 3</h3>
+              <p class="card-text">Descripción de la miniatura 3</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="miniatura.png" alt="Miniatura 3" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Título de la miniatura 3</h3>
+              <p class="card-text">Descripción de la miniatura 3</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="miniatura.png" alt="Miniatura 3" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Título de la miniatura 3</h3>
+              <p class="card-text">Descripción de la miniatura 3</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mt-3">
+          <div class="card">
+            <img src="miniatura.png" alt="Miniatura 3" class="card-img-top">
+            <div class="card-body">
+              <h3 class="card-title">Título de la miniatura 3</h3>
+              <p class="card-text">Descripción de la miniatura 3</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-light text-center py-4 mt-5">
+    <div class="container">
+      <span>Eloy Latorre y Jaume Roselló</span>
+      <br>
+      <a href="https://dazzling-cuchufli-ef5bb7.netlify.app/" class="btn btn-custom btn-primary mt-3" target="_blank">Guía gimnasio</a>
+    </div>
+  </footer>
+  
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
